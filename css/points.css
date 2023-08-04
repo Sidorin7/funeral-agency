@@ -1,0 +1,25 @@
+.header__body {
+}
+.container {
+}
+.header__body-inner {
+}
+.header__main--center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.heading__title {
+}
+.heading {
+}
+.points__heading {
+}
+.points__heading-title {
+  font-weight: 800;
+  font-size: 58px;
+  line-height: 131%;
+  text-align: center;
+  letter-spacing: -0.03em;
+  color: #1e1b1b;
+}
