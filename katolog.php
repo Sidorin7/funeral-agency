@@ -1,22 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet" />
   <script src="https://lidrekon.ru/slep/js/jquery.js"></script>
   <script src="https://lidrekon.ru/slep/js/uhpv-hover-full.min.js"></script>
-  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="icon" href="images/favicon/favicon-32x32.png" type="image/x-icon">
+  <?php
+  include('favicon.php')
+    ?>
+
+  <!-- <link rel="stylesheet" href="css/reset.css" /> -->
 
 
   <link rel="stylesheet" href="css/katolog.css" />
 
   <link rel="stylesheet" href="css/style.css" />
-  <title>Document</title>
+  <title>Каталог</title>
 </head>
 
 <body>
@@ -33,7 +35,7 @@
           <div class="heading__title heading">
             <div class="katolog__heading">
               <h1 class="katolog__heading-title">
-                Католог товаров
+                Каталог товаров
               </h1>
             </div>
           </div>
@@ -47,7 +49,7 @@
                 </div>
                 <div class="product-details">
 
-                  <h4><a href="">Венки</a></h4>
+                  <h4><a href="/katolog-venki.php">Венки</a></h4>
                 </div>
               </a>
             </div>
@@ -58,7 +60,7 @@
                 </div>
                 <div class="product-details">
 
-                  <h4><a href="#">Корзины</a></h4>
+                  <h4><a href="/katolog-korzin.php">Корзины</a></h4>
                 </div>
               </a>
             </div>
@@ -69,7 +71,7 @@
                 </div>
                 <div class="product-details">
 
-                  <h4><a href="">Гробы</a></h4>
+                  <h4><a href="/katolog-grob.php">Гробы</a></h4>
                 </div>
               </a>
             </div>
@@ -80,32 +82,32 @@
                 </div>
                 <div class="product-details">
 
-                  <h4><a href="">Текстиль</a></h4>
+                  <h4><a href="/images/texstil.jpg">Текстиль</a></h4>
                 </div>
               </a>
             </div>
-            <div class="product-card">
-              <a class='product-link' href="/katolog-krest.php">
+            <!-- <div class="product-card">
+              <a class='product-link' href="/katolog-krest.php2">
                 <div class="product-tumb">
                   <img src="/images/krest.jpg" alt="">
                 </div>
                 <div class="product-details">
 
-                  <h4><a href="">Кресты</a></h4>
+                  <h4><a href="/images/krest.jpg">Кресты</a></h4>
                 </div>
               </a>
-            </div>
-            <div class="product-card">
+            </div> -->
+            <!-- <div class="product-card">
               <a class='product-link' href="/katolog-accessories.php">
                 <div class="product-tumb">
                   <img src="/images/accessories.jpg" alt="">
                 </div>
                 <div class="product-details">
 
-                  <h4><a href="#">Аксессуары</a></h4>
+                  <h4><a href="/katolog-accessories.php">Аксессуары</a></h4>
                 </div>
               </a>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
@@ -116,7 +118,6 @@
   include('footer.php')
     ?>
 </body>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 
 <script src="js/main.js"></script>
 

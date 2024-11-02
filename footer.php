@@ -9,22 +9,22 @@
               <a href="index.php" class="footer__nav-link">Главная</a>
             </li>
             <li class="footer__nav-item">
-              <a class="footer__nav-link" href="#body">Новости</a>
+              <a class="footer__nav-link" href="news.php">Новости</a>
             </li>
             <li class="footer__nav-item">
-              <a class="footer__nav-link" href="#body">Католог товаров</a>
+              <a class="footer__nav-link" href="katolog.php">Каталог товаров</a>
             </li>
             <li class="footer__nav-item">
-              <a class="footer__nav-link" href="#about">Если случилась беда</a>
+              <a class="footer__nav-link" href="trouble.php">Если случилась беда</a>
             </li>
             <li class="footer__nav-item">
-              <a class="footer__nav-link" href="#process">Пункты приема заказов</a>
+              <a class="footer__nav-link" href="points.php">Пункты приема заказов</a>
             </li>
             <li class="footer__nav-item">
-              <a class="footer__nav-link" href="#process">Документы</a>
+              <a class="footer__nav-link" href="documents.php">Документы</a>
             </li>
             <li class="footer__nav-item">
-              <a class="footer__nav-link" href="#contact">Контакты</a>
+              <a class="footer__nav-link" href="contacts.php">Контакты</a>
             </li>
           </ul>
         </nav>

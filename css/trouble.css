@@ -41,6 +41,11 @@
   line-height: 31px;
   color: rgba(0, 0, 0, 0.7);
 }
+
+.trouble__item-link:hover {
+  color: goldenrod;
+  transition: all .3s;
+}
 .trouble__item-ol{
     list-style-type: decimal;
     text-align: left;

@@ -1,21 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet" />
   <script src="https://lidrekon.ru/slep/js/jquery.js"></script>
   <script src="https://lidrekon.ru/slep/js/uhpv-hover-full.min.js"></script>
-  <link rel="stylesheet" href="css/reset.css" />
-  
-  <link rel="stylesheet" href="css/news.scss" />
+  <?php
+  include('favicon.php')
+    ?>
+
+  <link rel="stylesheet" href="css/news.css" />
   <link rel="stylesheet" href="css/style.css" />
-  <title>Document</title>
+  <title>Новости</title>
 </head>
 
 <body>
@@ -39,7 +37,117 @@
         </div>
         <div class="news__inner">
           <div class="news__content">
-              <div class="card card-2">
+            <div class="product-card">
+              <div class="badge">Новое</div>
+              <div class="product-tumb">
+                <img src="\images\news-img/3587-zp.jpg" alt="">
+              </div>
+              <div class="product-details">
+                <p>Постановление БГА от 11.09.2024 г. № 3587зп "Об организации и проведении специализированной ярмарки
+                  МУСП по ВПД г. Брянска"
+                </p>
+                <div class="product-bottom-details">
+                  <div class="product-data">Среда, 11 сентября 2024</div>
+                  <div class="product-links">
+                    <a href=""><i class="fa fa-heart"></i></a>
+                    <a href=""><i class="fa fa-shopping-cart"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="product-card">
+
+              <div class="product-tumb">
+                <img src="\images\news-img/3106.jpg" alt="">
+              </div>
+              <div class="product-details">
+                <p>Постановление БГА от 09.08.2024 г. №3106-п "О мероприятиях по благоустройству, экологии, озеленению и
+                  повышению санитарной культуры в городе Брянске"
+                </p>
+                <div class="product-bottom-details">
+                  <div class="product-data">Суббота, 10 августа 2024</div>
+                  <div class="product-links">
+                    <a href=""><i class="fa fa-heart"></i></a>
+                    <a href=""><i class="fa fa-shopping-cart"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="product-card">
+              <div class="product-tumb">
+                <img src="\images\news-img\yaz-cvo.JPG" alt="">
+              </div>
+              <div class="product-details">
+                <p>Сотрудниками МУСП по ВПД города Брянска подготовлен и
+                  отправлен в зону СВО автомобиль УАЗ с грузом для наших
+                  защитников к «Дню Защитника Отечества 23 февраля». В
+                  транспортном средстве проведено полное техническое обслуживание
+                  (ТО) и установлена новая резина.
+                  Далее автомобиль УАЗ будет использоваться для достижения
+                  целей СВО.
+                </p>
+                <div class="product-bottom-details">
+                  <div class="product-data">Пятница, 22 февраля 2024</div>
+                  <div class="product-links">
+                    <a href=""><i class="fa fa-heart"></i></a>
+                    <a href=""><i class="fa fa-shopping-cart"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="product-card">
+              <a href="\documents\423-zp.pdf" target="_blank">
+                <div class="product-tumb">
+                  <img src="\images\news-img\n423-zp.jpg" alt="">
+                </div>
+                <div class="product-details">
+                  <p>
+                    Постановление Бряской городской администрации от 08.02.2024 № 423-зп
+                    <br>
+                    Об организации и проведении специализированных (тематеческих) ярморок муницыпальным унитарным
+                    специализированным предприятием по вопросам похоронного дела г. Брянска
+                    (МУСП по ВПД г. Брянска)
+                  <div class="product-data">Пятница, 9 февраля 2024 10:00</div>
+                  <div class="product-links">
+                    <a href=""><i class="fa fa-heart"></i></a>
+                    <a href=""><i class="fa fa-shopping-cart"></i></a>
+                  </div>
+                </div>
+            </div>
+            </a>
+            <div class="product-card">
+              <div class="product-tumb">
+                <img src="\images\news-img\vazik.jpg" alt="">
+              </div>
+              <div class="product-details">
+                <p>Военные делали «заказ» на уазик
+                  В Брянске сотрудники предприятия по вопросам похоронного дела и просто неравнодушные люди организовали
+                  помощь для брянских бойцов, которые находятся в зоне спецоперации. Об этом 24 марта сообщила в
+                  пресс-службе мэрии.
+                  - Мы постоянно сотрудничаем с брянскими подразделениями. В этот раз поступил «заказ» на уазик, -
+                  рассказал руководитель предприятия Сергей Щемелинин. - Подходящую машину нашли в Туле.
+                  Привезли в Брянск, отремонтировали, заправили бензином и отправили нашим ребятам. Помимо транспорта,
+                  доставлена партия гуманитарной помощи. Это медикаменты, обувь, продукты.</p>
+                <div class="product-bottom-details">
+                  <div class="product-data">Пятница, 24 марта 2023 05:24</div>
+                  <div class="product-links">
+                    <a href=""><i class="fa fa-heart"></i></a>
+                    <a href=""><i class="fa fa-shopping-cart"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+
+
+
+          <!-- <div class="card card-2">
                 <div class="card-img"></div>
                 <a href="" class="card-link">
                   <div class="card-img-hovered"></div>
@@ -94,18 +202,17 @@
                   <h1 class="card-title">Net-Nutrality is coming to its end</h1>
                   <div class="card-creator">by <a href="">Gregoy Trem</a></div>
                 </div>
-              </div>
-            
-          </div>
+              </div> -->
+
         </div>
       </div>
     </div>
-    d
-    <?php
-    include('footer.php')
-      ?>
+  </div>
+
+  <?php
+  include('footer.php')
+    ?>
 </body>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 <script src="js/main.js"></script>
 
 </html>

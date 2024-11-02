@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
   <meta charset="UTF-8" />
@@ -7,14 +7,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <script src="https://lidrekon.ru/slep/js/jquery.js"></script>
   <script src="https://lidrekon.ru/slep/js/uhpv-hover-full.min.js"></script>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="icon" href="images/favicon/favicon-32x32.png" type="image/x-icon">
+  <?php
+  include ('favicon.php')
+    ?>
+  <title>Если случилась беда</title>
+
+
+  <!-- <link rel="stylesheet" href="css/reset.css" /> -->
 
   <link rel="stylesheet" href="css/trouble.css" />
   <link rel="stylesheet" href="css/style.css" />
-  <title>Document</title>
 </head>
 
 <body>
@@ -22,7 +25,7 @@
     <div class="overlay"></div>
     <header class="header">
       <?php
-      include('nav.php')
+      include ('nav.php')
         ?>
       <div class="header__body">
         <div class="container">
@@ -46,11 +49,13 @@
                 </div>
               </div>
               <ol class="trouble__list">
-                <li class="trouble__item-ol">Получить медицинскую справку о смерти (из морга или от лечащего врача).</li>
+                <li class="trouble__item-ol">Получить медицинскую справку о смерти (из морга или от лечащего врача).
+                </li>
                 <li class="trouble__item-ol">На основании медицинской справки о смерти, паспорта умершего и паспорта
                   ответственного за похороны необходимо получить свидетельство о смерти у представителя органа ЗАГС г.
                   Брянска.</li>
-                <li class="trouble__item-ol">После получения свидетельства о смерти оформляется заказ на отвод земельного
+                <li class="trouble__item-ol">После получения свидетельства о смерти оформляется заказ на отвод
+                  земельного
                   участка (места) для захоронения (подзахоронения) в муниципальном специализированном предприятии по
                   вопросам похоронного дела г. Брянска и затем определение (выбор) места захоронения.</li>
               </ol>
@@ -131,36 +136,36 @@
                     </h2>
                   </div>
                 </div>
-              </div 
-              <ul class="trouble__list">
-                <li class="trouble__item">
-                  Не впускайте в дом никаких работников "Похоронных служб", если Вы их не вызывали сами и тем более, не
-                  передавайте им документы, деньги.
-                </li>
-                <li class="trouble__item">
-                  Во избежание дальнейших проблем и необоснованных затрат, связанных с эвакуацией тела в морг и
-                  организации похорон лучше воспользуйтесь услугами специализированного предприятия.
-                </li>
-                <li class="trouble__item">
-                  Под видом агентов в ваш дом могут зайти мошенники, наводчики, воры.
-                </li>
-                <li class="trouble__item">
-                  Специалисты служб должны иметь при себе служебное удостоверение. Если на Вас оказывается давление
-                  врачами поликлиники, полицейскими, агентами, помните, что право выбора за Вами! Пообещайте обратиться с
-                  жалобой в прокуратуру!
-                </li>
-                <li class="trouble__item">
-                  Мы надеемcя, что наши советы помогут Вам не попадаться на уловки непорядочных участников сферы
-                  ритуальных услуг, и организовать прощание с близким для Вас человеком достойно и без необоснованных
-                  затрат.
-                </li>
-                <li class="trouble__item">
-                  Вы можете воспользоваться консультациями наших специалистов в пунктах приема заказов по указанным на
-                  сайте адресам.
-                </li>
-                <li class="trouble__item">
-                  «Мы против коррупции в сфере оказания ритуальных услуг»
-                </li>
+              </div <ul class="trouble__list">
+              <li class="trouble__item">
+                Не впускайте в дом никаких работников "Похоронных служб", если Вы их не вызывали сами и тем более, не
+                передавайте им документы, деньги.
+              </li>
+              <li class="trouble__item">
+                Во избежание дальнейших проблем и необоснованных затрат, связанных с эвакуацией тела в морг и
+                организации похорон лучше воспользуйтесь услугами специализированного предприятия.
+              </li>
+              <li class="trouble__item">
+                Под видом агентов в ваш дом могут зайти мошенники, наводчики, воры.
+              </li>
+              <li class="trouble__item">
+                Специалисты служб должны иметь при себе служебное удостоверение. Если на Вас оказывается давление
+                врачами поликлиники, полицейскими, агентами, помните, что право выбора за Вами! Пообещайте обратиться с
+                жалобой в прокуратуру!
+              </li>
+              <li class="trouble__item">
+                Мы надеемcя, что наши советы помогут Вам не попадаться на уловки непорядочных участников сферы
+                ритуальных услуг, и организовать прощание с близким для Вас человеком достойно и без необоснованных
+                затрат.
+              </li>
+              <li class="trouble__item">
+                Вы можете воспользоваться консультациями наших специалистов в пунктах приема заказов по указанным на
+                сайте адресам.
+              </li>
+              <li class="trouble__item">
+                <a class="trouble__item-link" target="_blank" href="documents/pamytca.pdf">«Мы против коррупции в сфере
+                  оказания ритуальных услуг» (чтобы открыть информацию нажмите на данный текст)</a>
+              </li>
 
               </ul>
             </div>
@@ -171,10 +176,9 @@
   </header>
   </div>
   <?php
-  include('footer.php')
+  include ('footer.php')
     ?>
 </body>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 
 <script src="js/main.js"></script>
 

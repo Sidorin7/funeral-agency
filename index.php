@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
   <meta charset="UTF-8" />
@@ -7,12 +7,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <script src="https://lidrekon.ru/slep/js/jquery.js"></script>
   <script src="https://lidrekon.ru/slep/js/uhpv-hover-full.min.js"></script>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="icon" href="images/favicon/favicon-32x32.png" type="image/x-icon">
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <?php
+      include('favicon.php')
+  ?>
+  <meta name="yandex-verification" content="a5d322b8bbb29672" />
+
+  <meta name="description" content="Купить гроб недорого. Венок недорого, корзину в Муниципальном магазине. Можно заказать Бригада на вынос. Ночная эвакуация тела умершего. Эвакуация тела. Круглосуточная перевозка тела умершего в холодильную камеру. Похоронить на городском кладбище. Копка могилы. Кремация. Заказать катафалк. Изготовление и установка памятника недорого из гранита в любое время суток в городе Брянске и области. Официальный сайт Мусп по впд город Брянск" />
   <link rel="stylesheet" href="css/style.css" />
-  <title>Document</title>
+  <title>МУСП по ВПД – Ритуальные услуги города Брянска, ночная эвакуация тела, похороны на кладбище, заказать автокатафалк и бригада на вынос</title>
 </head>
 
 <body>
@@ -33,18 +42,19 @@
                     Полный комплекс ритуальных услуг
                   </h1>
                   <p class="header__main-subtitle">
-                    Ритуальные товары, транспорт, питание и юридические
+                    Ритуальные товары, транспорт, захоронения на кладбищах и юридические
                     вопросы
                   </p>
+                  <p class="header__main-subtitle--avak">Ночная эвакуация тела<br/>т. 8-900-696-99-66<br/>7000 рублей</p>
                 </div>
                 <div class="header__main-buttons">
-                  <a href="#" class="header__main-btnBas">
+                  <a href="tel:+79006969966" class="header__main-btnBas">
                     <span>Связаться</span>
                   </a>
                 </div>
               </div>
               <div class="header__main-right">
-                <div class="header__main-content" s>
+                <div class="header__main-content">
                   <img class="header__main-img" src="images/body__top.jpg" alt="Foto" />
                 </div>
               </div>
@@ -159,7 +169,6 @@
   include('footer.php')
     ?>
 </body>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 <script src="js/main.js"></script>
 
 </html>

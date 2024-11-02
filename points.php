@@ -1,19 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet" />
   <script src="https://lidrekon.ru/slep/js/jquery.js"></script>
   <script src="https://lidrekon.ru/slep/js/uhpv-hover-full.min.js"></script>
-  <link rel="stylesheet" href="css/reset.css" />
+  <?php
+      include('favicon.php')
+  ?>
+
+  <!-- <link rel="stylesheet" href="css/reset.css" /> -->
   <link rel="stylesheet" href="css/points.css">
   <link rel="stylesheet" href="css/style.css">
-  <title>Document</title>
+  <title>Пункты приема заказов</title>
 </head>
 
 <body>
@@ -37,6 +38,9 @@
                 </div>
               </div>
             </div>
+            <div class="section-map__map">
+            <div class="map" id="map"></div>
+          </div>
           </div>
         </div>
       </div>
@@ -48,7 +52,10 @@
   include('footer.php')
     ?>
 </body>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script
+      src="https://api-maps.yandex.ru/2.1/?apikey=5e83e2d1-4f13-4dfa-b83d-9e8dbd765578
+    &lang=ru_RU"
+      type="text/javascript"></script>
 <script src="js/main.js"></script>
 
-</html>
+</html>    

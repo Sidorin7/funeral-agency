@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
   <meta charset="UTF-8" />
@@ -7,14 +7,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <script src="https://lidrekon.ru/slep/js/jquery.js"></script>
   <script src="https://lidrekon.ru/slep/js/uhpv-hover-full.min.js"></script>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet" />
+  <?php
+  include('favicon.php')
+    ?>
+
   <link rel="stylesheet" href="css/reset.css" />
 
   <link rel="stylesheet" href="css/documents.css" />
   <link rel="stylesheet" href="css/style.css" />
-  <title>Document</title>
+  <title>Документы</title>
 </head>
 
 <body>
@@ -39,21 +40,52 @@
             <div class="documents__content">
               <ul class="documents__list">
                 <li class='documents__item'>
-                  <a class='documents__link' href="#">О внесении изменений в постановление 3077-п</a>
+                  <a class='documents__link' target="_blank" href="./documents/5.pdf">Федеральный Закон №8-ФЗ от
+                    12.01.1996 г.О погребении и похоронном деле</a>
                 </li>
                 <li class='documents__item'>
-                  <a class='documents__link' href="#">О внесении изменений в постановление 3077-п</a>
+                  <a class='documents__link' target="_blank" href="./documents/4.pdf">Постановление БГА № 3077-п от
+                    08.09.2004 г. О порядке содержания кладбищ в городе Брянске</a>
                 </li>
                 <li class='documents__item'>
-                  <a class='documents__link' href="#">О внесении изменений в постановление 3077-п</a>
+                  <a class='documents__link' target="_blank" href="./documents/2.pdf">Постановление № 3344-П от
+                    07.12.2020 (о закрытии кладбищ) 1 стр.</a>
+
                 </li>
                 <li class='documents__item'>
-                  <a class='documents__link' href="#">О внесении изменений в постановление 3077-п</a>
+                  <a class='documents__link' target="_blank" href="./documents/3.pdf">Постановление № 3344-П от
+                    07.12.2020 (о закрытии кладбищ) 2 стр.</a>
                 </li>
                 <li class='documents__item'>
-                  <a class='documents__link' href="#">О внесении изменений в постановление 3077-п</a>
+                  <a class='documents__link' target="_blank" href="./documents/7.pdf">Постановление БГА от 29.03.2024 №
+                    1110-зп</a>
+                </li>
+                <li class='documents__item'>
+                  <a class='documents__link' target="_blank" href="./documents/1.pdf">Постановление Брянской городской
+                    администрации от 21.05.2024 г. № 1797-п.<br />
+                    "О создании места погребения в р.п. Белые Берега Фокинского района города Брянска".</a>
                 </li>
 
+
+
+
+                <li class='documents__item'>
+                  <a class='documents__link' target="_blank" href="./documents/2067-zp.pdf">Постановление Брянской
+                    городской администрации от 03.06.2024 г. № 2067-зп "Об организации и проведении специализированной
+                    ярмарки МУСП по ВПД г. Брянска".</a>
+                </li>
+
+                <li class='documents__item'>
+                  <a class='documents__link' target="_blank" href="./documents/3106.pdf">Постановление БГА от 09.08.2024
+                    г.
+                    №3106-п "О мероприятиях по благоустройству, экологии, озеленению и повышению санитарной культуры в
+                    городе Брянске".</a>
+                </li>
+                <li class='documents__item'>
+                  <a class='documents__link' target="_blank" href="./documents/3587-zp.pdf">Постановление БГА от
+                    11.09.2024
+                    г. № 3587зп "Об организации и проведении специализированной ярмарки МУСП по ВПД г. Брянска".</a>
+                </li>
               </ul>
 
             </div>
@@ -63,7 +95,7 @@
   include('footer.php')
     ?>
 </body>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script> -->
 
 <script src="js/main.js"></script>
 

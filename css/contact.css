@@ -34,10 +34,13 @@
 .contact__item {
   text-align: left;
   margin-bottom: 20px;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 23px;
   line-height: 31px;
   color: rgba(0, 0, 0, 0.7);
+}
+.contact__item a {
+  color: goldenrod;
 }
 
 .header__main--center--smotritel {
