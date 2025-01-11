@@ -2,7 +2,7 @@
   <div class="footer__botton">
     <div class="container">
       <div class="footer__botton-inner">
-        <a class="footer__logo logo" href="#"> МУСП по ВПД г. Брянска </a>
+        <a class="footer__logo logo" href="#">МБУ "Специализированная похоронная служба" г.Брянска</a>
         <nav class="footer__nav">
           <ul class="footer__nav-list">
             <li class="footer__nav-item">

@@ -14,7 +14,7 @@
   <div class="container-header">
     <div class="header__top-inner">
       <!-- <img id="specialButton" style="cursor:pointer; width: 194px; margin-right: 30px;" src="https://cvrcr.com/wp/docs/visin_2.png" alt="ВЕРСИЯ ДЛЯ СЛАБОВИДЯЩИХ" title="ВЕРСИЯ ДЛЯ СЛАБОВИДЯЩИХ" /> -->
-      <a href="index.php" class="header__logo logo">МУСП по ВПД г.Брянска</a>
+      <a href="index.php" class="header__logo logo">МБУ "Специализированная похоронная служба" г.Брянска</a>
       <nav class="header__nav">
         <ul class="header__nav-list">
           <li class="header__nav-item">
