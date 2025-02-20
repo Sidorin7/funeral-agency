@@ -37,8 +37,26 @@
         </div>
         <div class="news__inner">
           <div class="news__content">
-            <div class="product-card">
+          <div class="product-card">
               <div class="badge">Новое</div>
+              <div class="product-tumb">
+                <img src="\images\news-img/555-zp1.jpg" alt="">
+              </div>
+              <div class="product-details">
+                <p>Постановление БГА от
+                    13.02.2025 г. № 555-зп "Об организации и проведении специализированных (тематические)ярмарок 
+                    МБУ "СПС" г. Брянска".
+                </p>
+                <div class="product-bottom-details">
+                  <div class="product-data">Четверг, 13 февраля 2025</div>
+                  <div class="product-links">
+                    <a href=""><i class="fa fa-heart"></i></a>
+                    <a href=""><i class="fa fa-shopping-cart"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="product-card">
               <div class="product-tumb">
                 <img src="\images\news-img/3587-zp.jpg" alt="">
               </div>
