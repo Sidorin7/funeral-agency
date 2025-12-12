@@ -33,7 +33,7 @@
               <div class="heading__title heading">
                 <div class="points__heading">
                   <h1 class="points__heading-title">
-                    Пункты приема заказов
+                    Пункты приема заказов.
                   </h1>
                 </div>
               </div>
