@@ -40,6 +40,24 @@
                         <div class="product-card">
               <div class="badge">Новое</div>
               <div class="product-tumb">
+                <img src="\images\news-img/4444-zp.jpg" alt="">
+              </div>
+              <div class="product-details">
+                <p>Постановление БГА от
+                    10.12.2025 г. № 4444-зп "Об организации и проведении специализированных
+                  Ярмарок (ёлочных базаров) МБУ «СПС» г. Брянска".
+                </p>
+                <div class="product-bottom-details">
+                  <div class="product-data">Среда, 10 декабря 2025</div>
+                  <div class="product-links">
+                    <a href=""><i class="fa fa-heart"></i></a>
+                    <a href=""><i class="fa fa-shopping-cart"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="product-card">
+              <div class="product-tumb">
                 <img src="\images\news-img/3041.jpg" alt="">
               </div>
               <div class="product-details">
