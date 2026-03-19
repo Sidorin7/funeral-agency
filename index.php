@@ -45,10 +45,10 @@
                     Ритуальные товары, транспорт, захоронения на кладбищах и юридические
                     вопросы
                   </p>
-                  <p class="header__main-subtitle--avak">Ночная эвакуация тела<br/>т. 8-900-696-99-66<br/>7000 рублей</p>
+                  <p class="header__main-subtitle--avak">Ночная эвакуация тела<br/>т. 8-953-290-13-12<br/>7000 рублей</p>
                 </div>
                 <div class="header__main-buttons">
-                  <a href="tel:+79006969966" class="header__main-btnBas">
+                  <a href="tel:+79532901312" class="header__main-btnBas">
                     <span>Связаться</span>
                   </a>
                 </div>
