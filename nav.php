@@ -26,6 +26,12 @@
           <li class="header__nav-item">
             <a href="katolog.php" class="header__nav-link">Каталог товаров</a>
             <ul class='dop__puntky'>
+              <li><a class='header__katolog-link' href="/katolog-pamatniki.php">Памятники</a>
+                <ul>
+                  <li><a class='header__katolog-link' href="/katolog-pamatniki-graver.php">Гравёрные работы</a></li>
+                  
+                </ul>
+              </li>
               <li><a class='header__katolog-link' href="/katolog-venki.php">Венки</a></li>
               <li><a class='header__katolog-link' href="/katolog-korzin.php">Корзины</a>
                 <!-- <ul class='dop__puntky'>
@@ -41,6 +47,7 @@
                   <li><a class='header__katolog-link' href="/katolog-grob-elite.php">Элитные</a></li>
                 </ul>
               </li>
+
               <li><a class='header__katolog-link' href="/katolog-texstil.php">Текстиль</a>
                 <ul>
                   <!-- <li><a class='header__katolog-link' href="/katolog-texstil-complete.php">Комплекты</a></li> -->

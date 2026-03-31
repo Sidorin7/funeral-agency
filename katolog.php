@@ -43,6 +43,17 @@
         <div class="katolog__inner">
           <div class="katolog__content">
             <div class="product-card">
+              <a class='product-link' href="/katolog-pamatniki.php">
+                <div class="product-tumb">
+                  <img src="/images/pamatnik.jpg" alt="">
+                </div>
+                <div class="product-details">
+
+                  <h4><a href="/katolog-pamatniki.php">Памятники</a></h4>
+                </div>
+              </a>
+            </div>
+            <div class="product-card">
               <a class='product-link' href="/katolog-venki.php">
                 <div class="product-tumb">
                   <img src="/images/venok.jpg" alt="">

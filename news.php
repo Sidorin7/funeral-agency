@@ -10,9 +10,9 @@
   <?php
   include('favicon.php')
     ?>
-
-  <link rel="stylesheet" href="css/news.css" />
-  <link rel="stylesheet" href="css/style.css" />
+ <link rel="stylesheet" href="/css/katolog-venki.css">
+  <link rel="stylesheet" href="/css/news.css" />
+  <link rel="stylesheet" href="/css/style.css" />
   <title>Новости</title>
 </head>
 
@@ -37,8 +37,25 @@
         </div>
         <div class="news__inner">
           <div class="news__content">
-                        <div class="product-card">
+            <div class="product-card">
               <div class="badge">Новое</div>
+              <div class="product-tumb">
+                <img src="\images\news-img/404.jpg" alt="">
+              </div>
+              <div class="product-details">
+                <p>Постановление БГА от 17.02.2026 г. №404 - зп "Об организации и проведении специализированных (тематических) ярмарок МБУ "СПС" г. Брянска".
+                </p>
+                <div class="product-bottom-details">
+                  <div class="product-data">Вторник, 17 февраля 2026</div>
+                  <div class="product-links">
+                    <a href=""><i class="fa fa-heart"></i></a>
+                    <a href=""><i class="fa fa-shopping-cart"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="product-card">
+              
               <div class="product-tumb">
                 <img src="\images\news-img/4444-zp.jpg" alt="">
               </div>
@@ -56,6 +73,7 @@
                 </div>
               </div>
             </div>
+
             <div class="product-card">
               <div class="product-tumb">
                 <img src="\images\news-img/3041.jpg" alt="">
