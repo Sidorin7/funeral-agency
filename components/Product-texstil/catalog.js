@@ -6,7 +6,7 @@ export const catalog = [
 		article: 'Артикул: ПАФ-14',
 		title: 'Покрывало драпированное со вставкой по центру и наволочкой',
 		descr: 'Покрывало: изготовлено из атласа. Драпировано с двух ...',
-		price: 2600,
+		price: 0,
 		// pixel: '/images/1x1.png'
 	},
 	{
@@ -16,7 +16,7 @@ export const catalog = [
 		article: 'Артикул: ПАФ-6',
 		title: 'Покрывало из гладкого атласа с драпированной вставкой и наволочкой',
 		descr: '',
-		price: 2300,
+		price: 0,
 		// pixel: '/images/1x1.png'
 	},
 	{
@@ -27,7 +27,7 @@ export const catalog = [
 		title:
 			'Покрывало с чередованием гладкого и драпированного атласа и наволочкой',
 		descr: 'Покрывало атласное: имеет две драпированные вставки. ...',
-		price: 2450,
+		price: 0,
 		// pixel: '/images/1x1.png'
 	},
 
@@ -37,7 +37,7 @@ export const catalog = [
 		imgJpg: '/images/polrvla/platok-nos.jpg',
 		article: 'Артикул: Рит.',
 		title: 'Платок носовой',
-		price: 30,
+		price: 0,
 	},
 	{
 		id: '2',
@@ -45,7 +45,7 @@ export const catalog = [
 		imgJpg: '/images/polrvla/maika-m.jpg',
 		title: 'Майка мужская',
 		descr: 'Майка мужская Ткань: 100% хлопок. Горловина и проймы ...',
-		price: 230,
+		price: 0,
 	},
 	{
 		id: '3',
@@ -53,7 +53,7 @@ export const catalog = [
 		imgJpg: '/images/polrvla/rybashka-m.jpg',
 		title: 'Рубашка мужская',
 		descr: 'Рубашка мужская Ткань: сорочечная. 50% ХБ, 50% ...',
-		price: 800,
+		price: 0,
 	},
 	{
 		id: '4',
@@ -62,7 +62,7 @@ export const catalog = [
 		article: 'Артикул: №2',
 		title: 'Платье женское ритуальное №2',
 		descr: 'Платье женское ритуальное №2 Материал: габардин. ...',
-		price: 750,
+		price: 0,
 	},
 	{
 		id: '5',
@@ -71,7 +71,7 @@ export const catalog = [
 		article: 'Артикул: №1',
 		title: 'Платье женское ритуальное №1',
 		descr: 'Платье женское ритуальное №1 Материал: габардин. Плотность ..',
-		price: 500,
+		price: 0,
 	},
 	{
 		id: '6',
@@ -79,7 +79,7 @@ export const catalog = [
 		imgJpg: '/images/polrvla/pantalon-ritual.jpg',
 		title: 'Панталоны женские ритуальные',
 		descr: 'Панталоны женские ритуальные Панталоны женские ритуальные ...',
-		price: 150,
+		price: 0,
 	},
 	{
 		id: '7',
@@ -87,6 +87,6 @@ export const catalog = [
 		imgJpg: '/images/polrvla/noski-m.jpg',
 		title: 'Носки мужские',
 		descr: 'Носки мужские Материал: 100% полиэстр. Цвет: ...',
-		price: 50,
+		price: 0,
 	},
 ]
