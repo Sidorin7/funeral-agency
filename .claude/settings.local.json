@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(/tmp/venv_check/bin/python /tmp/cdp_burger_closed.py)"
+    ]
+  }
+}
